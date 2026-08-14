@@ -1,12 +1,12 @@
 # Nigerian Sign Language (NSL) Alphanumeric Detection Using YOLO
 
-This repository contains materials for real-time sign recognition using the Nigerian Sign Language (NSL) Alphanumeric Dataset. The collection serves as an annotated computer vision resource to evaluate lightweight deep learning models. It includes 32 static alphanumeric gestures. The categories feature numbers 1 through 9 and letters A through Y. Motion-dependent gestures J and Z remain excluded. The composite gesture 10 is also absent. The data reflects varied indoor and outdoor lighting conditions. The images incorporate multiple camera angles and distinct background environments.
+This repository contains materials for real-time sign recognition using the Nigerian Sign Language (NSL) Alphanumeric Dataset. The collection serves as an annotated computer vision resource to evaluate lightweight deep learning models. It includes 33 static alphanumeric gestures. The categories feature numbers 1 through 9 and letters A through Y. Motion-dependent gestures J and Z remain excluded. The composite gesture 10 is also absent. The data reflects varied indoor and outdoor lighting conditions. The images incorporate multiple camera angles and distinct background environments.
 
 ## Scope and Exclusions in data.yaml
 
 * Included Classes: Numbers 1 to 9 and Letters A to Y.
 * Excluded Classes: J, Z, and 10.
-* Total Classes: 32.
+* Total Classes: 33.
 
 ## Dataset Structure
 
@@ -14,7 +14,7 @@ The files follow standard YOLO formatting directories.
 
 * **images/**: Contains .jpg gesture frames across multiple subjects.
 * **labels/**: Contains matching normalized YOLO .txt files.
-* **dataset.yaml**: Defines the 32-class label mapping for training models.
+* **dataset.yaml**: Defines the 33-class label mapping for training models.
 
 ## Intended Use Cases
 
