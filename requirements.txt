@@ -1,4 +1,28 @@
-ultralytics==8.4.109
-albumentations
-opencv-python-headless
-tensorboard
+# Computer Vision & Media Processing
+opencv-python>=4.13.0
+mediapipe>=0.10.35
+pillow>=12.3.0
+
+# Deep Learning & Object Detection (YOLOv11)
+ultralytics>=8.4.104
+torch>=2.13.0
+torchvision>=0.28.0
+
+# Data Augmentation & Math
+numpy>=2.2.6
+albumentations>=2.0.8
+scipy>=1.18.0
+
+# Utilities & Config
+tqdm>=4.67.1
+PyYAML>=6.0.3
+
+# Evaluation & Monitoring
+tensorboard>=2.21.0
+matplotlib>=3.11.1
+
+# Model Export (Android / ONNX / TFLite)
+onnx>=1.20.1
+onnxruntime>=1.26.0
+onnx2tf>=2.6.8
+tensorflow>=2.21.0
