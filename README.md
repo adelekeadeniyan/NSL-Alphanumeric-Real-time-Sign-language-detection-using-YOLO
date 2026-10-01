@@ -44,6 +44,49 @@ Evaluated across physical Android environments using unquantized FP32 model weig
 
 Clone the repository to your local machine:
 
-```bash
-git clone [https://github.com/adelekeadeniyan/NSL-Alphanumeric-Real-time-Sign-language-detection-using-YOLO.git](https://github.com/adelekeadeniyan/NSL-Alphanumeric-Real-time-Sign-language-detection-using-YOLO.git)
-cd NSL-Alphanumeric-Real-time-Sign-language-detection-using-YOLO
+Bash
+`git clone [https://github.com/adelekeadeniyan/NSL-Alphanumeric-Real-time-Sign-language-detection-using-YOLO.git](https://github.com/adelekeadeniyan/NSL-Alphanumeric-Real-time-Sign-language-detection-using-YOLO.git)
+cd NSL-Alphanumeric-Real-time-Sign-language-detection-using-YOLO `
+
+Install the requirements to ensure all dependencies function properly:
+
+Bash
+
+`   pip install -r requirements.txt   `
+
+Dataset Access & Execution
+--------------------------
+
+*   Pythondataset\_path = '/kaggle/input/datasets/adelekeadeniyan/nsl-alphanumeric-dataset/content/split\_dataset'
+    
+*   **Local Execution:** Download the dataset directly from Zenodo or Kaggle.
+    
+
+Generate the configuration file before running training or use the pre-included data.yaml:
+
+Bash
+
+`   python create_yaml.py   `
+
+Real-Time Testing Instructions
+------------------------------
+
+Use the detection script to test the model locally. Ensure your trained best.pt weights file resides in runs/detect/train\_yolo11n/weights before execution, or adjust the path directly in the script:
+
+Bash
+
+`   python realtime_detect.py   `
+
+_Note: Training workflows are typically executed on Kaggle/cloud environments to accommodate resource constraints, while inference benchmarks are validated in real time on physical local devices._
+
+Citation
+--------
+
+Please cite this dataset and work if utilized in academic or research contexts:
+
+Code snippet
+
+`   @dataset{adeleke2026nsl,    author       = {Adeleke Adeniyan and Abimbola H. Afolayan and Olanrewaju V. Johnson},    title        = {Nigerian Sign Language (NSL) Alphanumeric Dataset},    year         = {2026},    publisher    = {Zenodo},    doi          = {10.5281/zenodo.21672976},    url          = {[https://doi.org/10.5281/zenodo.21672976](https://doi.org/10.5281/zenodo.21672976)}  }   `
+
+*   Alternatively available on Kaggle: [NSL Alphanumeric Dataset on Kaggle](https://www.kaggle.com/datasets/adelekeadeniyan/nsl-alphanumeric-dataset).
+
