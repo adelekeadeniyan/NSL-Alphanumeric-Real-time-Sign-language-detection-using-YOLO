@@ -90,3 +90,7 @@ Code snippet
 
 *   Alternatively available on Kaggle: [NSL Alphanumeric Dataset on Kaggle](https://www.kaggle.com/datasets/adelekeadeniyan/nsl-alphanumeric-dataset).
 
+
+## Mobile Application (Android)
+The native Android companion app utilizing CameraX and TensorFlow Lite for offline real-time inference is hosted in a dedicated repository:
+[NSL-Alphanumeric-Android-App](https://github.com/adelekeadeniyan/NSL-Alphanumeric-Android-App)
