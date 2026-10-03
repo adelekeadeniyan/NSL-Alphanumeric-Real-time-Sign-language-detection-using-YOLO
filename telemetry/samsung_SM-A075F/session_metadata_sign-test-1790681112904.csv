@@ -1,0 +1,2 @@
+timestamp,session_id,device_id,manufacturer,model,soc_model,soc_manufacturer,board,hardware,ram_total_mb,cpu_cores,cpu_abi,api_level,device_tier,delegate,num_threads,model_name,model_size_mb,input_tensor,input_dtype,quantization,class_count
+2026-09-29_12-25-12.913,sign-test-1790681112904,samsung_SM-A075F,samsung,SM-A075F,MT6789,Mediatek,a07,mt6789,3611,8,arm64-v8a,36,low_end,CPU,4,best_float32.tflite,10.057571411132812,640x640x3,FLOAT32,FP32,33
