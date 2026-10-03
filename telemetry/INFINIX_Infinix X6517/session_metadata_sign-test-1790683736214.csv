@@ -1,0 +1,2 @@
+timestamp,session_id,device_id,manufacturer,model,soc_model,soc_manufacturer,board,hardware,ram_total_mb,cpu_cores,cpu_abi,api_level,device_tier,delegate,num_threads,model_name,model_size_mb,input_tensor,input_dtype,quantization,class_count
+2026-09-29_13-08-56.251,sign-test-1790683736214,INFINIX_Infinix X6517,INFINIX,Infinix X6517,SC9863A,Spreadtrum,X6517,X6517,3861,8,arm64-v8a,31,low_end,CPU,4,best_float32.tflite,10.057571411132812,640x640x3,FLOAT32,FP32,33
