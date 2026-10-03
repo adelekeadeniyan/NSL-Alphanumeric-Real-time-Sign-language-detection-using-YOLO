@@ -1,0 +1,1 @@
+Hardware telemetry logs, benchmark CSV files, or evaluation scripts ensures that peer reviewers and readers can independently verify the hardware performance claims across the Samsung, TECNO, Infinix, and Itel devices tested
