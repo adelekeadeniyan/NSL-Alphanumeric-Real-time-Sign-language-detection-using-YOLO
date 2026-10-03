@@ -4,7 +4,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Framework: PyTorch](https://img.shields.io/badge/PyTorch-2.10-red.svg)](https://pytorch.org/)
 
-Official repository for the research paper: **"Optimizing Lightweight Convolutional Neural Networks for Real-Time Alphanumeric Sign Language Detection"**.
+Official repository for the research paper: **"Edge-Optimized YOLOv11n Architecture for Offline Recognition of Nigerian Sign Language Alphanumeric Gestures"**.
 
 This repository contains materials for real-time sign recognition using the Nigerian Sign Language (NSL) Alphanumeric Dataset. The collection serves as an annotated computer vision resource to evaluate lightweight deep learning models. It includes 33 static alphanumeric gestures. The categories feature numbers 1 through 9 and letters A through Y. Motion-dependent gestures J and Z remain excluded. The composite gesture 10 is also absent. The data reflects varied indoor and outdoor lighting conditions, incorporating multiple camera angles and distinct background environments.
 
