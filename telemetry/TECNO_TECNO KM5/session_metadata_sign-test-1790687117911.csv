@@ -1,0 +1,2 @@
+timestamp,session_id,device_id,manufacturer,model,soc_model,soc_manufacturer,board,hardware,ram_total_mb,cpu_cores,cpu_abi,api_level,device_tier,delegate,num_threads,model_name,model_size_mb,input_tensor,input_dtype,quantization,class_count
+2026-09-29_14-05-17.944,sign-test-1790687117911,TECNO_TECNO KM5,TECNO,TECNO KM5,MT6769,Mediatek,TECNO-KM5,mt6768,3743,8,arm64-v8a,35,low_end,CPU,4,best_float32.tflite,10.057571411132812,640x640x3,FLOAT32,FP32,33
