@@ -79,18 +79,29 @@ Bash
 
 _Note: Training workflows are typically executed on Kaggle/cloud environments to accommodate resource constraints, while inference benchmarks are validated in real time on physical local devices._
 
-Citation
---------
-
-Please cite this dataset and work if utilized in academic or research contexts:
-
-Code snippet
-
-`   @dataset{adeleke2026nsl,    author       = {Adeleke Adeniyan and Abimbola H. Afolayan and Olanrewaju V. Johnson},    title        = {Nigerian Sign Language (NSL) Alphanumeric Dataset},    year         = {2026},    publisher    = {Zenodo},    doi          = {10.5281/zenodo.21672976},    url          = {[https://doi.org/10.5281/zenodo.21672976](https://doi.org/10.5281/zenodo.21672976)}  }   `
-
-*   Alternatively available on Kaggle: [NSL Alphanumeric Dataset on Kaggle](https://www.kaggle.com/datasets/adelekeadeniyan/nsl-alphanumeric-dataset).
-
 
 ## Mobile Application (Android)
 The native Android companion app utilizing CameraX and TensorFlow Lite for offline real-time inference is hosted in a dedicated repository:
 [NSL-Alphanumeric-Android-App](https://github.com/adelekeadeniyan/NSL-Alphanumeric-Android-App)
+
+
+## Citation
+
+Please cite this dataset and work if utilized in academic or research contexts:
+
+```bibtex
+@dataset{adeleke2026nsl,
+  author       = {Adeleke Adeniyan and Abimbola H. Afolayan and Olanrewaju V. Johnson},
+  title        = {Nigerian Sign Language (NSL) Alphanumeric Dataset},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21672976},
+  url          = {https://doi.org/10.5281/zenodo.21672976}
+}
+
+```
+# Alternatively
+--------
+Available on Kaggle: [NSL Alphanumeric Dataset on Kaggle](https://www.kaggle.com/datasets/adelekeadeniyan/nsl-alphanumeric-dataset).
+
+
